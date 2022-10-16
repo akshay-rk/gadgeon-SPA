@@ -1,0 +1,58 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: azure;
+}
+
+li{
+    float:left;
+}
+#logo{
+    padding: 5px 33px;
+}
+
+li a{
+    display:block;
+    color:rgb(19, 13, 13);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    padding: 22px;
+}
+li a:hover{
+    background-color: rgb(40, 125, 97);
+}
+
+.active{
+    background-color: rgb(1, 106, 71);
+}
+.nav{
+    background-color: azure;
+}
+.contain{
+    height: 300px;
+    width:520px;
+    background-image: url("https://gadgeon.com/web/images/i-03.jpg");
+    background-position: cover;
+    background-size:contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-top:30px;
+}
+
+ p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    font-family:sans-serif;
+ }
+ .info{
+    width:90vw;
+    margin-left: 80px;
+    padding: 30px;
+ }
